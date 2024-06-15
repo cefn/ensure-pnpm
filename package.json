@@ -1,0 +1,11 @@
+{
+  "name": "ensure-pnpm",
+  "version": "0.1.0",
+  "description": "Github-hosted package to help prevent running npm or yarn in pnpm projects.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "echo \"cefn/ensure-pnpm: Please Use 'pnpm install' to install this project.\nCalling 'npm install' or 'yarn install' is an error.\" && exit 1"
+  },
+  "author": "Cefn Hoile",
+  "license": "MIT"
+}
